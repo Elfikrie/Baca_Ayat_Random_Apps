@@ -1,0 +1,12 @@
+[
+  { "surah": "Al-Ikhlas", "surahArabic": "الإخلاص", "number": 1, "text": "قُلْ هُوَ ٱللَّهُ أَحَدٌ" },
+  { "surah": "Al-Ikhlas", "surahArabic": "الإخلاص", "number": 2, "text": "ٱللَّهُ ٱلصَّمَدُ" },
+  { "surah": "Al-Ikhlas", "surahArabic": "الإخلاص", "number": 3, "text": "لَمْ يَلِدْ وَلَمْ يُولَدْ" },
+  { "surah": "Al-Ikhlas", "surahArabic": "الإخلاص", "number": 4, "text": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌ" },
+  { "surah": "Al-Kautsar", "surahArabic": "الكوثر", "number": 1, "text": "إِنَّا أَعْطَيْنَاكَ ٱلْكَوْثَرَ" },
+  { "surah": "Al-Kautsar", "surahArabic": "الكوثر", "number": 2, "text": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ" },
+  { "surah": "Al-Kautsar", "surahArabic": "الكوثر", "number": 3, "text": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ" },
+  { "surah": "Al-'Asr", "surahArabic": "العصر", "number": 1, "text": "وَٱلْعَصْرِ" },
+  { "surah": "An-Nasr", "surahArabic": "النصر", "number": 1, "text": "إِذَا جَاءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ" },
+  { "surah": "Al-Falaq", "surahArabic": "الفلق", "number": 1, "text": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ" }
+]

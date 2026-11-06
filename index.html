@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Latihan membaca ayat Al-Qur'an dengan pengenalan suara." />
+  <title>Baca Ayat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <p class="eyebrow">LATIHAN MEMBACA AL-QUR'AN</p>
+      <h1>Baca Ayat</h1>
+      <p class="intro">Baca ayat yang tampil. Saat bacaan cukup sesuai, sistem akan memilih ayat berikutnya secara otomatis.</p>
+    </header>
+
+    <section class="score-card" aria-label="Skor sesi">
+      <span>Ayat berhasil dibaca</span>
+      <strong id="score" aria-live="polite">0</strong>
+    </section>
+
+    <section class="ayah-card" aria-live="polite">
+      <p id="surahInfo" class="surah-info">Menyiapkan ayat…</p>
+      <p id="ayahText" class="ayah-text" lang="ar" dir="rtl">…</p>
+      <p id="dataSource" class="source"></p>
+    </section>
+
+    <section class="reader-panel" aria-label="Perekaman bacaan">
+      <div id="micStatus" class="mic-status" role="status">
+        <span class="mic-dot" aria-hidden="true"></span>
+        <span id="micStatusText">Mikrofon belum aktif</span>
+      </div>
+      <button id="startButton" class="start-button" type="button" disabled>
+        <span aria-hidden="true">🎙</span> Mulai Membaca
+      </button>
+      <p class="hint">Tekan tombol, izinkan mikrofon, lalu baca ayat dengan pelan dan jelas.</p>
+    </section>
+
+    <section class="result-panel" aria-live="polite">
+      <p id="feedback" class="feedback">Siap untuk mulai membaca.</p>
+      <div class="recognition-box">
+        <span class="recognition-label">Hasil pengenalan suara</span>
+        <p id="transcript" class="transcript" lang="ar" dir="rtl">Belum ada bacaan.</p>
+      </div>
+      <p id="similarityInfo" class="similarity-info"></p>
+    </section>
+
+    <noscript>Aplikasi ini memerlukan JavaScript untuk menggunakan mikrofon.</noscript>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
